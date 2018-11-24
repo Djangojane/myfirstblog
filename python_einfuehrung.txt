@@ -1,0 +1,197 @@
+Microsoft Windows [Version 10.0.17134.407]
+(c) 2018 Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\Users\janan>python3
+Der Befehl "python3" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+C:\Users\janan>python3
+Der Befehl "python3" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+C:\Users\janan>python
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+3
+5
+>>> 4*5
+20
+>>> 5-1
+4
+>>> 40/2
+20.0
+>>> 2**3
+8
+>>> "Hallo"
+'Hallo'
+>>> 'Hi'
+'Hi'
+>>> "Hallo was geht" + "Hi"
+'Hallo was gehtHi'
+>>> "Hallo"*3
+'HalloHalloHallo'
+>>> "Runnin' down"
+"Runnin' down"
+>>> "Holla".upper()
+'HOLLA'
+>>> 'Runnun\' down'
+"Runnun' down"
+>>> len("Shakespeare")
+11
+>>> len(10234)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: object of type 'int' has no len()
+>>> str(13543)
+'13543'
+>>> len(str(24564))
+5
+>>> int('hello')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+>>> name="Ola"
+>>> name
+'Ola'
+>>> name=Jana
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Jana' is not defined
+>>> name = Jana
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Jana' is not defined
+>>> name = "Jana"
+>>> name
+'Jana'
+>>> len(name)
+4
+>>> a = 4
+>>> a
+4
+>>> b = 6
+>>> a*b
+24
+>>> city = "Tokyo"
+>>> cty
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cty' is not defined
+>>> name = 'Maria'
+>>> print(name)
+Maria
+>>> name
+'Maria'
+>>> []
+[]
+>>> lottery=[3, 42, 12, 19, 30, 59]
+>>> len(lottery)
+6
+>>> lottery.sort()
+>>> print(lottery)
+[3, 12, 19, 30, 42, 59]
+>>> lottery.reverse()
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3]
+>>> lottery.append(199)
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3, 199]
+>>> lottery.sort()
+>>> print(lottery)
+[3, 12, 19, 30, 42, 59, 199]
+>>> print(lottery[0])
+3
+>>> print(lottery[1])
+12
+>>> print(lottery))
+  File "<stdin>", line 1
+    print(lottery))
+                  ^
+SyntaxError: invalid syntax
+>>> print(lottery)
+[3, 12, 19, 30, 42, 59, 199]
+>>> print(lottery[0])
+3
+>>> lottery.pop(0)
+3
+>>> print(lottery)
+[12, 19, 30, 42, 59, 199]
+>>> print(lottery[1000])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> {}
+{}
+>>> participant = {'name':'Jana', 'country': 'Germany', 'favorite_numbers': [7, 13, 24 10]}
+  File "<stdin>", line 1
+    participant = {'name':'Jana', 'country': 'Germany', 'favorite_numbers': [7, 13, 24 10]}
+                                                                                        ^
+SyntaxError: invalid syntax
+>>> participant = {'name':'Jana', 'country': 'Germany', 'favorite_numbers': [7, 13, 24, 10]}
+>>> pa
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pa' is not defined
+>>> participant
+{'name': 'Jana', 'country': 'Germany', 'favorite_numbers': [7, 13, 24, 10]}
+>>> print(participant['name])
+  File "<stdin>", line 1
+    print(participant['name])
+                            ^
+SyntaxError: EOL while scanning string literal
+>>> print(participant['name')
+  File "<stdin>", line 1
+    print(participant['name')
+                            ^
+SyntaxError: invalid syntax
+>>> print(participant['name'])
+Jana
+>>> participant['age']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'age'
+>>> participant['favorite_language'] = 'Python'
+>>> len(participant)
+4
+>>> participant.pop('favorite_numbers')
+[7, 13, 24, 10]
+>>> participant
+{'name': 'Jana', 'country': 'Germany', 'favorite_language': 'Python'}
+>>> participant['country'] = 'Poland'
+>>> participant
+{'name': 'Jana', 'country': 'Poland', 'favorite_language': 'Python'}
+>>> 5>2
+True
+>>> 2<1
+False
+>>> 5>2*2
+True
+>>> 1 == 1
+True
+>>> 5 != 2
+True
+>>> 6>=12/2
+True
+>>> 6>2 and 2<3
+True
+>>> 3>2 and 2<1
+False
+>>> 3>2 or 2<1
+True
+>>> 1> 'django'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '>' not supported between instances of 'int' and 'str'
+>>> a = True
+>>> a
+True
+>>> a=2>5
+>>> a
+False
+>>> 1<0 and 3<5
+False
+>>> 1>0 or 0>1
+True
+>>> 1!=2
+True
+>>> 
